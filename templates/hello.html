@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+   <!--<script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'hello.js') }}" ></script>-->
+	<script src="static/hello.js"></script>
+      <h1>Hello {{ name }}!</h1>
+      <body>
+      <input type = "button" onclick = "sayHello()" value = "Say Hello" />
+	  
+	  <form action="your_method_name" method="post">
+    Project file path: <input type="text" name="projectFilepath"><br>
+    <input type="submit" value="Submit">
+</form>
+   </body>
+</html>
